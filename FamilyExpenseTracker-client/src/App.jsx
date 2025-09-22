@@ -1,12 +1,12 @@
 import React from "react";
+import { Link } from "react-router";
 
 const App = () => {
   return (
     <>
-      <div className="bg-amber-200">Hello!</div>
-      <div>Hello!</div>
-      <div>Hello!</div>
-      <div>Hello!</div>
+      <div>App</div>
+      <Link to={"/home"}>Click me</Link>
+      <a href="/home">Click me</a>
     </>
   );
 };
